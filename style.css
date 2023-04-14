@@ -1,0 +1,136 @@
+.container{
+    border-style: groove;
+    background-color: aliceblue;
+}
+.contain{
+    border-style: groove;
+    margin: 20px;
+    background-color:#ffff
+}
+.navbar{
+    position: absolute;
+    color: #fff;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+}
+.navbar ul li{
+display: inline-block;
+padding: 10px;
+color: black;
+}
+.footer{
+}
+.mainbody{
+    display: grid;
+    background-color: aliceblue;
+    margin: 50px;
+    border-style: groove;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 95%;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
+}
+.text{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.text li{
+    border: 1px;
+    display: inline;
+    margin: 40px 20px;
+    /* list-style: none; */
+}
+.pop{
+    background-color: brown;
+    border-radius: 10px;
+    border: 1px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.pop .vaw {
+    margin-bottom: 10px;
+}
+.pop button{
+    background-color: #ddd;
+    color: pink;
+}
+.popd{
+    background-color: cyan;
+    border-radius: 10px;
+    border: 1px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    /* bottom: 0; */
+    left: 500px;
+    top: 100px;
+}
+.popd .vawuu{
+    margin: 10px;
+}
+.popd button{
+    background-color: wheat;
+    color-scheme:normal ;
+}
+.popp{
+    background-color: green;
+    border-radius: 10px;
+    border: 1px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.vawu{
+    margin-bottom: 10px;
+}
+.vawu button{
+    background-color: yellow;
+    color: cadetblue;
+}
+.mainbody h1{
+    text-align: center;
+}
+.mainbody p{
+    text-align: center;
+}
+.mainbody button{
+    width: 150px;
+    border-radius: 10px;
+}
+.footer-container {
+    background-color: #fff;
+    width: 75%;
+    margin: auto;
+    color:aqua;
+    border-top-left-radius: 175px;
+    border-top-right-radius: 175px;
+    padding: 10px;
+}
+
+.foot {
+list-style: none;
+/* padding: 20px; */
+}
+
+.foot li {
+    display: inline-block;
+    padding-right: 100px;
+    margin-left: 50px;
+}
